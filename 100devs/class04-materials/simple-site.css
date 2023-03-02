@@ -1,0 +1,19 @@
+h1{
+    font-style: italic;
+    color: white;
+}
+body{
+    background-color: skyblue;
+    width: 94%;
+    margin: 50px auto;
+    border: 5px solid #1ACB37; /* width, style, colour */
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
+p nav ul li{
+    color: green;
+}
