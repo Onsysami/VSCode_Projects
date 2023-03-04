@@ -1,9 +1,13 @@
 *{
     box-sizing: border-box;
     background-color: skyblue;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 body{
     border: 5px solid rgba(112, 202, 76, 1);
+    width: 800px;
+    height: 600px;
     margin: 25px;
 }
 header h1{
@@ -33,10 +37,13 @@ section nav ul{
 }
 section h2{
     color: white;
+    width: 100%;
     float: left;
 }
 section p{
     float: left;
+    color: white;
+    width: 70%;
 }
 footer{
     clear: both;
@@ -46,4 +53,12 @@ footer nav li{
 }
 footer ul{
     text-align: center;
+}
+footer nav li a{
+    color: rgba(112, 202, 76, 1);
+}
+img{
+    width: 200px;
+    height: 285px;
+    float: left;
 }
