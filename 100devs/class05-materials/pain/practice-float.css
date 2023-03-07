@@ -12,3 +12,8 @@ section{
     border: 3px solid black;
     float: left;
 }
+ul{
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
