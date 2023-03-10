@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    flex-direction: vertical;
+    float: left;
+}
+header nav{
+    width: 10%;
+    height: 100%;
+}
+body section{
+    width: 65%;
+    float: left
+}
+body aside{
+    width: 25%;
+    float: left;
+}
+body aside + section{
+    width: 100%;
+    float: left;
+}
+body aside + section > section{
+    width: 10%;
+    float: left;
+}
+body aside + section > section + section{
+    width: 30%;
+    float: left;
+}
+body aside + section > section + section + section{
+    width: 30%;
+    float: left;
+}
+body aside + section > section + section + section + section{
+    width: 30%;
+    float: left;
+}
+body aside + section > section + section span{
+    width:100%;
+    float: left;
+}
