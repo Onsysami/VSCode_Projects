@@ -1,3 +1,30 @@
 *{
     box-sizing: border-box;
 }
+ul{
+	list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section{
+    width: 50%;
+    height: 900px;
+    float: left;
+}
+section h1{
+    float: left;
+}
+section p{
+    flex-wrap: wrap;
+    float: left;
+}
+section nav{
+    float: left;
+}
+section p + nav ul li{
+    justify-content: space-between;
+}
+section{
+    margin-top: 30px;
+}
