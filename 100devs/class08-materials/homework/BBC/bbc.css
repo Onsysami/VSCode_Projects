@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    padding-bottom: 25px;
+}
+li{
+    float: left;
+    list-style: none;
+    display: flex;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#politicians{
+    float: left;
+    width: 50%;
+}
+#quad{
+    float: left;
+    width: 50%;
+}
+.topquad{
+    float: left;
+    width: 50%;
+}
+.bottomquad{
+    float: left;
+    width: 50%;
+}
+#bottomhalf section{
+    float: left;
+    width: 33.3333%;
+}

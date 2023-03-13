@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+  --color: #ECC091;
+  --gray: #6A747E;
+  --dark: #222222;
+}
+
+.e-white {
+  background-color: #fff;
+}
+
+.t-white {
+  color: #fff;
+}
+
+.e-black {
+  background-color: #000;
+}
+
+.t-black {
+  color: #000;
+}
+
+.t-dark {
+  color: var(--dark);
+}
+
+.e-color {
+  background-color: var(--color);
+}
+
+.e-dark {
+  background-color: var(--dark);
+}
+
+.t-color {
+  color: var(--color);
+}
+
+.e-gray {
+  background-color: var(--gray);
+}
+
+.t-gray {
+  color: var(--gray);
+}
+
+.t-100 {
+  font-weight: 100;
+}
+
+.t-400 {
+  font-weight: 400;
+}
+
+.t-500 {
+  font-weight: 500;
+}
+
+.t-700 {
+  font-weight: 700;
+}
+
+.t-900 {
+  font-weight: 900;
+}
+
+.e-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e-flex-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.e-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.e-rel {
+  position: relative;
+}
+
+.e-abs {
+  position: absolute;
+}
+
+.e-fixed {
+  position: fixed;
+}
+
+.e-wp {
+  width: 100%;
+}
+
+.e-hp {
+  height: 100%;
+}
+
+.e-85 {
+  width: 85%;
+}
+
+.e-85w {
+  width: 85vw;
+}
+
+.e-wvw {
+  width: 100vw;
+}
+
+.e-hvh {
+  height: 100vh;
+}
+
+.e-dn {
+  display: none;
+}
+
+.e-img-fit {
+  object-fit: cover;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.e-hidden {
+  overflow: hidden;
+}
+
+.e-curp {
+  cursor: pointer;
+}
+
+e-upper {
+  text-transform: uppercase;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  color: #26589F;
+  outline: none;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1025px) {
+  .e-mobile {
+    display: none;
+  }
+}
+
+body {
+  background: #171d22;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  display: flex;
+}
+
+.box__controls {
+  margin: 3vh 0px;
+  display: flex;
+  gap: 25px;
+  width: 400px;
+}
+
+.box__controls input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.box__controls__each {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box__line {
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  width: 2px;
+  top: 0;
+  left: 0;
+  background: red;
+  display: none;
+}
+
+.box__image, .box__diff {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: none;
+  pointer-events: none;
+}
+
+.box__image__hold, .box__diff__hold {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box__code {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.container:has(#compare:checked) .box:hover .box__image, .container:has(#compare:checked) .box:hover .box__line {
+  display: block;
+}
+
+.container:has(#diff:checked) .box__diff {
+  display: block;
+  z-index: 1;
+  mix-blend-mode: difference;
+}
+
+.square.replace-it {
+  width: 80px;
+  height: 80px;
+  background: grey;
+  margin: 10px 0 0 10px;
+}
