@@ -43,3 +43,62 @@ header + section > span{
     color: black;
     float: left;
 }
+header + section + section{
+    height: 100px;
+    background: white;
+}
+header + section + section h2, header + section + section p{
+    width: 100%;
+    color: black;
+    float: left;
+}
+section section{
+    width: 50%;
+    height: 200px;
+    padding-top: 30px;
+    background: rgba(202, 208, 209, 1);
+    float: left;
+}
+header + section + section + section + section h2, header + section + section + section + section p, header + section + section + section + section a{
+    width: 100%;
+    float: left;
+}
+header + section + section + section + section{
+    height: 400px;
+}
+#firstLI{
+    width: 50%;
+    padding-bottom: 20px;
+    display: inline;
+    list-style: none;
+    float: left;
+}
+
+footer section{
+    background: black;
+    color: white;
+}
+#firstSection{
+    width: 75%;
+}
+#secondSection{
+    width: 25%;
+}
+footer section + section{
+    float: left;
+}
+li{
+    display: inline;
+}
+footer section + section p {
+    width: 1600px;
+    float: left;
+}
+footer section + section img{
+    width: 112px;
+    padding-top: 15px;
+    float: left;
+}
+footer section + section{
+    border-top: 2px solid white;
+}
