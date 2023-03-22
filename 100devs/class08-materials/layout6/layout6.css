@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 65px;
+    width: 100%;
+}
+header ul li{
+    display: inline;
+}
+header img, header ul li{
+    float: left;
+}
+header > img{
+    padding-left: 50px;
+    width: 800px;
+}
+header ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header + section{
+    width: 50%;
+    height: 33.3333%;
+    padding-left: 100px;
+}
+header + section h1{
+    width: 100%;
+    font-size: 35px;
+    float: left;
+}
+header + section form{
+    width: 40%;
+    float: left;
+}
+header + section button{
+    width: 12%;
+    float: left;
+}
+header + section ul li{
+    display: inline;
+    padding: 5%;
+}
+header + section ul{
+    width: 100%;
+    float: left;
+}
+header + section + section{
+    width: 100%;
+}
+#section_1{
+    width: 50%;
+    height: 33.3333%;
+    padding-right: 100px;
+    padding-top: 200px;
+    float: right;
+}
+#section_2{
+    width: 50%;
+    height: 33.3333%;
+    padding-left: 100px;
+    padding-top: 200px;
+    float: left;
+}
+#section_3{
+    padding-top: 100px;
+    width: 100%;
+    float: left;
+}
+#section_3 span{
+    float: left;
+}
+#section_5, #section_6{
+    padding-top: 100px;
+    float: left;
+}
+#section_3{
+    height: 400px;
+}
+#section_3 span, #section_3 h2, #section_3 ul{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+#section_3 #ul_1 li, #ul_2 li{
+    display: inline;
+    padding: 20px;
+}
+#ul_2, #ul_1{
+    padding: 20px;
+}
+#ul_2 li{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#section_5{
+    width: 100%;
+    height: 740px;
+    text-align: center;
+    float: left;
+}
+#section_5 > span{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+#section_5 ul{
+    display: inline;
+    width: 50%;
+    float: left;
+}
+#section_5 > img{
+    width: 100%;
+    padding-left: 50%;
+    float: left;
+}
+#section_5 ul li{
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#section_6{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    float: left;
+}
+#section_6 span{
+    width: 100%;
+    padding: 40px;
+    float: left;
+}
+#section_6 img{
+    width: 100%;
+    padding: 15px;
+    float: left;
+}
+#section_6 p{
+    width: 100%;
+    padding: 25px;
+    float: left;
+}
