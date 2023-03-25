@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+#mainMenu{
+	font-family: sans-serif;
+}
+#mainMenu li{
+    padding: 25px;
+    display: inline;
+    float: left;
+}
+#navLogo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 200px;
+    float: left;
+}
+nav a + ul + a{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 200px;
+    float: left;
+}
