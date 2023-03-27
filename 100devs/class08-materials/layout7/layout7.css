@@ -8,7 +8,8 @@ ul, ol{
 	font-family: sans-serif;
 }
 #mainMenu li{
-    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
     display: inline;
     float: left;
 }
@@ -20,9 +21,83 @@ ul, ol{
     float: left;
 }
 nav a + ul + a{
-    padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 150px;
-    padding-right: 200px;
+    padding-left: 270px;
+    float: left;
+}
+nav{
+    width: 100%;
+    float: left;
+}
+h1{
+    font-size: 70px;
+    width: 100%;
+    float: left;
+}
+header + section{
+    width: 85%;
+    float: left;
+}
+header + section span{
+    padding: 30px;
+    width: 100%;
+    float: left;
+}
+header + section button{
+    margin-left: 35px;
+    float: left;
+}
+#sectionSpan{
+    width: 15%;
+    float: left;
+}
+#sectionSpan span{
+    padding: 35px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    float: right;
+}
+#sectionSpan + section{
+    float: left;
+}
+#hairColoring{
+    background-color: black;
+    margin: 90px;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    float: left;
+}
+#hairColoring span, #hairColoring h4{
+    color: white;
+}
+#hairColoring h4{
+    font-size: 20px;
+}
+#arrows{
+    padding-top: 250px;
+    padding-left: 950px;
+    float: left;
+}
+#arrows a + a{
+    padding-right: 150px;
+}
+#arrows + section{
+    width: 100%;
+    float: left;
+}
+#arrows + section section{
+    width: 33.3333%;
+    padding: 120px;
+    float: left;
+}
+#arrows + section section + section{
+    width: 33.3333%;
+    padding: 120px;
+    float: left;
+}
+#arrows + section section + section + section{
+    width: 33.3333%;
+    padding: 120px;
     float: left;
 }
