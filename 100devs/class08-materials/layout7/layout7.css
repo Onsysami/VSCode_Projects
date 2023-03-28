@@ -91,13 +91,69 @@ header + section button{
     padding: 120px;
     float: left;
 }
+#arrows + section section img{
+    width: 100%;
+    padding-bottom: 15px;
+    float: left;
+}
 #arrows + section section + section{
     width: 33.3333%;
     padding: 120px;
     float: left;
 }
+#arrows + section section + section img{
+    width: 100%;
+    padding-bottom: 15px;
+    float: left;
+}
 #arrows + section section + section + section{
     width: 33.3333%;
     padding: 120px;
+    float: left;
+}
+#arrows + section section + section + section img{
+    width: 100%;
+    padding-bottom: 15px;
+    float: left;
+}
+#makeIt{
+    width: 50%;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 120px;
+    float: left;
+}
+#makeIt h3{
+    font-size: 30px;
+}
+#justIMG{
+    width: 50%;
+    height: 300px;
+    padding-left: 120px;
+    padding-right: 200px;
+    float: left;
+}
+#theModels{
+    margin-left: 300px;
+}
+#theModels > section{
+    width: 33.3333%;
+    float: left;
+}
+#the10{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 200px;
+    float: left;
+}
+#lookbook{
+    width: 100%;
+    margin: 40px;
+    text-align: center;
+    float:left;
+}
+#lookbook img{
+    width: 33.3333%;
+    padding: 50px;
     float: left;
 }
