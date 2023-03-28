@@ -41,6 +41,11 @@ main section, .bottom section{
 /*******************************************/
 
 /* On mobile, please make all sections stack  */
+@media screen and (max-width: 600px){
+  section{
+    width: 100%;
+  }
+}
 
 /* On tablet, please make the sections in main stack  */
 
