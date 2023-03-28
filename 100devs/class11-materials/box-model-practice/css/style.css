@@ -2,28 +2,28 @@
 h1{
     padding: 0px 20px;
     margin: 150px 0px;
-    border-right: 5px solid purple;
-    border-left: 5px solid purple;
-    background-color: rgba(203, 152, 98, 1);
+    border-right: 2px solid purple;
+    border-left: 2px solid purple;
+    background: rgba(214, 171, 52, 1);
 }
 
 /* Please give the h2 significant padding on the left and right, a red border on the left and right but the red must be the same from the mighty morphin power rangers logo, and an orange background, and the roboto font */
 h2{
     padding: 0px 100px;
-    border-right: 3px solid rgba(248, 48, 58, 1);
-    border-left: 3px solid rgba(248, 48, 58, 1);
+    border-right: 5px solid rgba(168, 49, 50, 1);
+    border-left: 5px solid rgba(168, 49, 50, 1);
     background-color: orange;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
 }
 /* Please give the section a thick magenta border on the left, 100px of padding on the top and bottom, and 200px of margin on every side without padding or border */
 section{
-    border-left: 10px solid magenta;
+    border-left: 20px solid magenta;
     padding: 100px 0px;
     margin-right: 200px;
 }
 /* Please make the spans have thin Dodger Blue borders, padding on the bottom and right, and light red background */
 span{
-    border: 2px solid rgba(0, 89, 157, 1);
+    border: 2px solid dodgerblue;
     padding: 0px 25px 25px 0px;
     background-color: salmon;
 }
