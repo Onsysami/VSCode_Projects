@@ -4,7 +4,16 @@ function check() {
 
   const day = document.querySelector('#day').value
 
-  //Conditionals go here
-
+  if (day === 'Tuesday' || day === 'Thursday')
+  {
+    document.querySelector('placeToSee').changeText('Class');
+  }
+  else if (day === 'Saturday' || day === 'Sunday')
+  {
+    alert('Weekend!')
+  }
+  else{
+    alert('BORRRRRIIINNNGGG')
+  }
 
 }
